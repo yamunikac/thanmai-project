@@ -1,0 +1,114 @@
+body{
+font-family:Arial;
+margin:0;
+padding:0;
+background:#f5f5f5;
+text-align:center;
+}
+
+/* APP CONTAINER */
+
+.app{
+min-height:100vh;
+padding-bottom:40px;
+}
+
+/* TITLE */
+
+.title{
+margin-top:20px;
+}
+
+/* SEARCH BAR */
+
+.search{
+margin:15px;
+padding:10px;
+width:250px;
+border-radius:5px;
+border:1px solid #ccc;
+}
+
+/* MENU BUTTONS */
+
+.menu button{
+margin:5px;
+padding:8px 15px;
+border:none;
+background:#333;
+color:white;
+border-radius:5px;
+cursor:pointer;
+}
+
+.menu button:hover{
+background:#555;
+}
+
+/* DARK MODE */
+
+.dark{
+background:#d4c6c6;
+color:white;
+min-height:100vh;
+}
+
+/* DARK MODE BUTTON */
+
+.dark-btn{
+margin:10px;
+padding:8px 15px;
+border:none;
+background:#dfb9b9;
+color:white;
+border-radius:5px;
+cursor:pointer;
+}
+
+/* AUTH PAGES (LOGIN / SIGNUP) */
+
+.auth-container{
+width:350px;
+margin:100px auto;
+padding:30px;
+background:white;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+display:flex;
+flex-direction:column;
+gap:10px;
+}
+
+.auth-container input{
+padding:10px;
+border-radius:5px;
+border:1px solid #ccc;
+}
+
+.auth-container button{
+padding:10px;
+background:#333;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+.auth-container button:hover{
+background:#555;
+}
+
+/* MOBILE RESPONSIVE */
+
+@media(max-width:600px){
+
+.search{
+width:90%;
+}
+
+.auth-container{
+width:90%;
+margin-top:80px;
+}
+
+}
